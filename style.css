@@ -1,0 +1,36 @@
+body{
+    background-image: url(1280px-Montreal_-_QC_-_Skyline.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+}
+
+#clock-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#clock{
+    font-family: monospace;
+    font-size: 7.5rem;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    backdrop-filter: blur(5px);
+    background-color: hsla(0, 0%, 100%, 0.2);
+    width: 100%;
+}
+
+#h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 3.9rem;
+    text-align: center;
+    margin-top: 200px;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px #000000;
+    background-color: hsla(0, 0%, 0%, 0.784);
+}
